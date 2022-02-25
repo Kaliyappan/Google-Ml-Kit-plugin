@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 flutter plugin for google ml kit
                        DESC
-  s.homepage         = 'https://github.com/bharat-biradar/Google-Ml-Kit-plugin'
+  s.homepage         = 'https://github.com/Kaliyappan/Google-Ml-Kit-plugin'
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Your Company' => 'email@example.com' }
   s.source           = { :path => '.' }
@@ -21,7 +21,7 @@ flutter plugin for google ml kit
   s.dependency 'GoogleMLKit/ImageLabeling', '~> 2.2.0'
   s.dependency 'GoogleMLKit/ImageLabelingCustom', '~> 2.2.0'
   s.dependency 'GoogleMLKit/LinkFirebase', '~> 2.2.0'
-  s.dependency 'GoogleMLKit/BarcodeScanning', '~> 2.2.0'
+  s.dependency 'GoogleMLKit/BarcodeScanning', '~> 2.6.0'
   s.dependency 'GoogleMLKit/TextRecognition', '~> 2.2.0'
   s.dependency 'GoogleMLKit/PoseDetection', '~> 2.2.0'
   s.dependency 'GoogleMLKit/PoseDetectionAccurate', '~> 2.2.0'
